@@ -43,6 +43,7 @@ html,body {
     gap: 20px;
     align-items: center;
     color: #fff;
+    list-style: none;
 }
 
 .box {
@@ -99,4 +100,27 @@ html,body {
         display: flex;
         flex-direction: column;
     }
+}
+
+#pbtm span {
+    font-size: 20px;
+    font-weight: 700;
+    color: red;
+}
+
+i {
+    color: red;
+    font-size: 20px;
+    font-weight: 600;
+    /* overflow: hidden; */
+}
+
+.hidden {
+    display: none;
+}
+
+#pbtm h1 {
+    color: red;
+    font-size: 45px;
+    font-family: monospace;
 }
